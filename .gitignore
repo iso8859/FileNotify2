@@ -5,3 +5,5 @@
 **/bin
 **/obj
 
+/.vs
+/packages/Topshelf.4.2.0
