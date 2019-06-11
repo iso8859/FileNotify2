@@ -21,5 +21,7 @@ fnService2.exe install
 fnService2.exe uninstall
 
 Version history
+
 Version 1.0, first version created 15DEC07
+
 Version 2.0, 11JUN19 - Add fmService2 that uses https://github.com/Topshelf/Topshelf for a better service management.
