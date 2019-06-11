@@ -12,11 +12,14 @@ Very powerful functionnality :
 * Trigger on new, deleted, changed and unchanged files
 * Very secure to install on a production server, unzip and run install.bat
 * Easily handle open file (put by FTP for example)
-* Source code available to gold users
-* You need Microsoft .NET Framework version 2.0
-* Donwload the zip file here.
-* Unzip the file and run install.bat
-* Use fnAdmin to create your fileNotify2.xml settings file.
+
+Use fnAdmin to create your fileNotify2.xml settings file.
+fnservice2.exe is the new main exe
+Run it to start in console mode.
+To install/uninstall the service :
+fnService2.exe install
+fnService2.exe uninstall
 
 Version history
 Version 1.0, first version created 15DEC07
+Version 2.0, 11JUN19 - Add fmService2 that uses https://github.com/Topshelf/Topshelf for a better service management.
